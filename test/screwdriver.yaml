@@ -1,6 +1,6 @@
-image: node:6
 jobs:
   main:
+    image: node:6
     requires: [~commit, ~pr]
     steps:
       - get: pwd
